@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.box {
+  width: 700px;
+  height: 400px;
+  border: 1px solid #444;
+  box-shadow: 10px 10px 10px #888;
+  background-image: linear-gradient(to top, #1DB73B 30%, #D00E25 30%, #D00E25 33%, #fff 33%, #fff 65%, #D00E25 65%, #D00E25 68%, #059CB7 68%);
+}
+.moon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 white;
+  transform: rotate(130deg);
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+/* star */
+.star {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap-reverse;
+  width: 150px;
+  position: relative;
+  bottom: 63px;
+  left: 90px;
+}
+.star i {
+  color: #fff;
+  font-size: 20px;
+  margin: 5px;
+}
+.star i:nth-child(6) {
+  margin-left: 30px;
+}
